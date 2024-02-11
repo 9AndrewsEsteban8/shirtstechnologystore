@@ -1,5 +1,4 @@
 
-
 import Footer from './Componets/Footer';
 import Header from './Header';
 import './App.css';

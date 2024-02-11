@@ -117,3 +117,52 @@ html {
 }
 
 
+/* ---Footer---- */
+
+.container_footer{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  place-items: center;
+  font-size: 150%;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 0.2rem ;
+  width: 100%;
+}
+
+.container_footer ul li{
+  list-style: none;
+}
+
+.socialnetworks_footer{
+  display: flex;
+  gap: 10px;
+}
+
+.socialnetworks_footer a{
+  color:  rgb(255, 255, 255);
+}
+
+
+.socialnetworks_footer a:hover{
+  color: rgb(255, 40, 37);
+}
+
+
+.developers a:first-child{
+  color: rgb(255, 40, 37);
+}
+
+.developers a:last-child{
+  color: rgb(97,218,251);
+}
+
+.fa-2x {
+  font-size: 3em;
+}
+
+c:\Users\USUARIO\OneDrive\Escritorio\Portafolio\PortafolioAndrewsEsteban\src\App.css
+
+
