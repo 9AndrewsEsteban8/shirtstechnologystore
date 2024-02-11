@@ -4,19 +4,19 @@ function Header() {
     return (
         <div className="Header">
             <div className="top--bar">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                </svg>
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="24" height="24" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                        <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                        <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-                    </svg>
                     Envios a toda Colombia <span>Gratis por compras desde $150.000</span>
                 </p>
             </div>
 
             <div className="nav--bar">
-                <nav className="nav--bar__meneu">
+                <nav className="nav--bar__menue">
                     <a href="/">camisetas</a>
                     <a href="/">productos</a>
                     <a href="/">sobre nosotros</a>
@@ -27,11 +27,11 @@ function Header() {
                 <div className="nav--bar__search">
                     <input type="search" name="busquedaProducto" placeholder="Busca"/>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
                             <path d="M21 21l-6 -6" />
-                        </svg>
+                    </svg>
                 </div>
 
                 <div className="nav--bar__bag">
@@ -45,19 +45,45 @@ function Header() {
             </div>
 
             <div className="button--bar">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div className="button--bar__img">
+                    <img src="../img/js.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/php.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/java.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/tailwind.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/android.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/c.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/Github.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/Angular.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/React.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/node.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/python.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/Wordpress.png" alt="imagen"></img>
+                </div>
+                <div className="button--bar__img">
+                    <img src="../img/sass.png" alt="imagen"></img>
+                </div>
             </div>
         </div>    
     )
