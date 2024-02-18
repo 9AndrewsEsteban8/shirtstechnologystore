@@ -116,6 +116,38 @@ html {
   }
 }
 
+/* our_products */
+.containerrombos{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.romborojo{
+  position: relative;
+  width: 50%;
+  border-bottom: solid rgb(255, 40, 37) 50vh;
+  border-right: solid transparent 20vh;
+}
+
+.romborojo img{
+  position:absolute;
+  top: 15vh;
+}
+
+
+.romboamarillo{
+  position: relative;
+  width: 50%;
+  border-top	: solid #FFD43B 50vh;
+  border-left: solid transparent 20vh;
+}
+
+.romboamarillo img{
+  position:absolute;
+  bottom: 10vh;
+}
+
 
 
 /* Search Category */
