@@ -1,5 +1,5 @@
 import React from 'react'
-import { faFacebook, faInstagram, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import {faWhatsapp,faFacebook, faInstagram, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import SocialIcon from './SocialIcons'
 
 
@@ -18,11 +18,13 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div>
+      <div className='whatsapp'>
         <ul>
           <h3>Contactanos</h3>
-          <li>🍀+57 301331557</li>
-          <li>🍀+57 3134020890</li>
+          <li><SocialIcon
+          icon={faWhatsapp}/>+57301331557</li>
+          <li><SocialIcon
+          icon={faWhatsapp}/>+573134020890</li>
         </ul>
       </div>
 

@@ -117,6 +117,32 @@ html {
 }
 
 
+
+/* Search Category */
+
+
+
+.container_search h3{
+  color:  rgb(255, 40, 37);
+  font-size: xx-large;
+}
+
+.Container_category{
+  display: flex;
+}
+
+.Container_category img{
+  width: 70%;
+  height: 70%;
+}
+
+.Container_category p{
+font-size:large;
+}
+
+
+
+
 /* ---Footer---- */
 
 .container_footer{
@@ -126,7 +152,7 @@ html {
   align-items: center;
   place-items: center;
   font-size: 150%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   border-top: solid 0.2rem ;
   width: 100%;
@@ -163,6 +189,16 @@ html {
   font-size: 3em;
 }
 
-c:\Users\USUARIO\OneDrive\Escritorio\Portafolio\PortafolioAndrewsEsteban\src\App.css
 
 
+
+.whatsapp .fa-2x {
+  font-size: 1.5em;
+  color: white;
+  background-color:  #00bb2d;
+  border-radius: 60%;
+}
+
+.whatsapp li{
+  display: flex;
+}
