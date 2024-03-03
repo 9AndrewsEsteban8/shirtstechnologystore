@@ -6,7 +6,7 @@ import shield from '../img/shield.png'
 const Search_category = () => {
     return (
         <div className='container_search'>
-            <h3>BUSCAR POR CATEGORIA</h3>
+            <h3 className='title-red'>BUSCAR POR CATEGORIA</h3>
             <div className='Container_category'>
                 <div><img src={shirt}/><p>Camisetas donde puede encontrar las mejores</p></div>
                 <div><img src={code}/><p>Encuentra por tu lenguaje de programación favorito</p></div>

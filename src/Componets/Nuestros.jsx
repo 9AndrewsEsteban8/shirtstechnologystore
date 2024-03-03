@@ -4,6 +4,8 @@ import kit from '../img/kit.png'
 
 const Nuestros = () => {
   return (
+   <> 
+  <h3 className='title-red'>NUESTROS PRODUCTOS</h3>
     <div className='containerrombos'>
       <div className='romborojo'>
         <img src={kit} alt="men" />
@@ -12,6 +14,7 @@ const Nuestros = () => {
       <img src={men} alt="kit" />
       </div>
     </div>
+    </>
   )
 }
 
