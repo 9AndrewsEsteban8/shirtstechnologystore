@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
     return (
         <div className="Header">
-            <div className="top--bar">
+            <div id="miBarra" className="top--bar">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path id="icon-path" stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
                 <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
                 <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
@@ -44,46 +44,93 @@ function Header() {
                 </div>
             </div>
 
-            <div className="button--bar">
-                <div className="button--bar__img">
-                    <img src="../img/js.png" alt="imagen"></img>
+            <div className="slider">
+                <div className="slider--track">
+                
+                    <div className="slide">
+                        <img src="../img/js.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/php.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/java.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/tailwind.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/android.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/c.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Github.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Angular.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/React.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/node.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/python.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Wordpress.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/sass.png" alt="imagen"></img>
+                    </div>
+
+
+
+                    <div className="slide">
+                        <img src="../img/js.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/php.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/java.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/tailwind.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/android.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/c.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Github.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Angular.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/React.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/node.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/python.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/Wordpress.png" alt="imagen"></img>
+                    </div>
+                    <div className="slide">
+                        <img src="../img/sass.png" alt="imagen"></img>
+                    </div>
+
                 </div>
-                <div className="button--bar__img">
-                    <img src="../img/php.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/java.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/tailwind.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/android.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/c.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/Github.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/Angular.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/React.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/node.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/python.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/Wordpress.png" alt="imagen"></img>
-                </div>
-                <div className="button--bar__img">
-                    <img src="../img/sass.png" alt="imagen"></img>
-                </div>
+
             </div>
         </div>    
     )
